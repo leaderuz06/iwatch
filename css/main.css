@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.img{
+    display: flex;
+    width: 35px;
+    height: 42px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.item{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/*main section*/
+
+.main_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.main_section_title{
+    width: 331px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.main_section_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-left: 3px solid #888;
+    padding-left: 40px;
+}
+
+
+
+.button{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px;
+    background-color: #EA625C;
+    margin: 20px;
+}
+
+.section_cards_title{
+    width: 280px;
+    height: 27px;
+    display: block;
+    line-height: 27px;
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+
+.section_cards_text{
+    width: 280px;
+    height: 168px;
+    color: #333333;
+    font-size: 15px;
+    line-height: 24px;
+    row-gap: 20px;
+    column-gap: 5px;
+}
+
+.section_card{
+    width: 100%;
+    height: 253px;
+    row-gap: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rectangle{
+    width: 8px;
+    height: 8px;
+    background-color: #777777;
+    margin: 5px;
+}
+
+.doots{
+    display: flex;
+    margin-left: 70px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.end_section{
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.end_section_discription h4{
+    font-size: 50px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    line-height: 120%;
+    width: 380px;
+    height: 180px;
+}
+
+.end_section_text p{
+    width: 450px;
+    height: 96px;
+    border-left: 3px solid #888;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer_text{
+    width: 450px;
+    border-left: 3px solid #fff;
+    line-height: 150%;
+    font-size: 16px;
+    height: 120px;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_title{
+    width: 490px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+    padding: 30px;
+}
+
+.footer{
+    background-image: url('../image/runners\ 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+.footer_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    display: flex;
+    padding-top: 300px;
+    align-items: center;
+    height: 850px;
+}
